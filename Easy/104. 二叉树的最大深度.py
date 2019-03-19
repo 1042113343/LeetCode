@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+# DFS 深度优先搜索
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root is None:
